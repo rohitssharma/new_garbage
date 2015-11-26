@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/rohit/Documents/Backup GarbageBin/26 nov Fi/GarbageBin/app/build/intermediates/exploded-aar/GarbageBin/library/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="11e466a78d28de6d1c13e27705d7bea332e8b88f">
+        <dex dex="/home/rohit/Documents/Backup GarbageBin/26 nov Fi/GarbageBin/app/build/intermediates/pre-dexed/debug/classes-56acefcd029c0119cb32f6cec4e97f8fb7914859.jar" />
+    </item>
+    <item
+        jar="/home/rohit/Documents/Backup GarbageBin/26 nov Fi/GarbageBin/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1e98ef3f124bb7a11f8575f9ff5dfea330b61b6f">
+        <dex dex="/home/rohit/Documents/Backup GarbageBin/26 nov Fi/GarbageBin/app/build/intermediates/pre-dexed/debug/classes-a3b10e8b4c2383dedec340402ed9e37d4a0367d7.jar" />
+    </item>
+    <item
+        jar="/home/rohit/Documents/Backup GarbageBin/26 nov Fi/GarbageBin/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e7b35244f50663b3f8d150714bca9ecd7a290da1">
+        <dex dex="/home/rohit/Documents/Backup GarbageBin/26 nov Fi/GarbageBin/app/build/intermediates/pre-dexed/debug/classes-6f099759d9067f893faea35b75742c9f536f4570.jar" />
+    </item>
+    <item
+        jar="/home/rohit/Documents/Backup GarbageBin/26 nov Fi/GarbageBin/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="69dd177337ead693c408c8dddc9546bb6f1244fa">
+        <dex dex="/home/rohit/Documents/Backup GarbageBin/26 nov Fi/GarbageBin/app/build/intermediates/pre-dexed/debug/classes-4a4e243fb16b1bede643ed8e8a1344990f3a8e36.jar" />
+    </item>
+    <item
+        jar="/home/rohit/Documents/Backup GarbageBin/26 nov Fi/GarbageBin/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="272bc5d7063f24bc3a33ea1d318cde8f31f5ec4c">
+        <dex dex="/home/rohit/Documents/Backup GarbageBin/26 nov Fi/GarbageBin/app/build/intermediates/pre-dexed/debug/classes-64d69c2ac698d8e538747f319797ac756282d565.jar" />
+    </item>
+    <item
+        jar="/home/rohit/Documents/github_garbagebin/GarbageBin/GarbageBin/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a78bfd2ec508b123ee7c03f4006ba7996ef9a8dc">
+        <dex dex="/home/rohit/Documents/github_garbagebin/GarbageBin/GarbageBin/app/build/intermediates/pre-dexed/debug/classes-3dd961495b4946b8e481dea4cce3eb4ae918fd3e.jar" />
+    </item>
+    <item
+        jar="/home/rohit/Documents/github_garbagebin/GarbageBin/GarbageBin/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ba207be21987c11b37d9f8faa08ed6e722569f30">
+        <dex dex="/home/rohit/Documents/github_garbagebin/GarbageBin/GarbageBin/app/build/intermediates/pre-dexed/debug/classes-8798c09045c8ec241089176a3e103a697e727711.jar" />
+    </item>
+    <item
+        jar="/home/rohit/Documents/Backup GarbageBin/26 nov Fi/GarbageBin/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a78bfd2ec508b123ee7c03f4006ba7996ef9a8dc">
+        <dex dex="/home/rohit/Documents/Backup GarbageBin/26 nov Fi/GarbageBin/app/build/intermediates/pre-dexed/debug/classes-1fd4f58a417f37e4b4e0b016986188c04fe70ecf.jar" />
+    </item>
+    <item
+        jar="/home/rohit/Documents/Backup GarbageBin/26 nov Fi/GarbageBin/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8d736fefa22d896e84a268354b3ed48a42663150">
+        <dex dex="/home/rohit/Documents/Backup GarbageBin/26 nov Fi/GarbageBin/app/build/intermediates/pre-dexed/debug/classes-19339ad9caccce30c1d2d687b697f76da333a963.jar" />
+    </item>
+    <item
+        jar="/home/rohit/Documents/github_garbagebin/GarbageBin/GarbageBin/app/build/intermediates/exploded-aar/com.intuit.sdp/sdp-android/1.0.2/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="5831c1517a9c80bf19a6b76ad23b898a7d827c0f">
+        <dex dex="/home/rohit/Documents/github_garbagebin/GarbageBin/GarbageBin/app/build/intermediates/pre-dexed/debug/classes-e59f4a6eb93c146952c44e0f05c4a208638593c6.jar" />
+    </item>
+    <item
+        jar="/home/rohit/Documents/Backup GarbageBin/26 nov Fi/GarbageBin/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="02bac2dc792d78241077861566f2c82da955e7fa">
+        <dex dex="/home/rohit/Documents/Backup GarbageBin/26 nov Fi/GarbageBin/app/build/intermediates/pre-dexed/debug/classes-0136d905b016d1583522730fbbdc75526eaedc3b.jar" />
+    </item>
+    <item
+        jar="/home/rohit/Documents/Backup GarbageBin/26 nov Fi/GarbageBin/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d405025c600055237c171a0bbabaa49d69696573">
+        <dex dex="/home/rohit/Documents/Backup GarbageBin/26 nov Fi/GarbageBin/app/build/intermediates/pre-dexed/debug/classes-5bbc96716f6fbdfdd5914ee0aaf7d9558d5ed092.jar" />
+    </item>
+    <item
+        jar="/home/rohit/Documents/github_garbagebin/GarbageBin/GarbageBin/app/libs/YouTubeAndroidPlayerApi.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="29ccfbddf99584bddbaab62c0cf50dcd1c564e43">
+        <dex dex="/home/rohit/Documents/github_garbagebin/GarbageBin/GarbageBin/app/build/intermediates/pre-dexed/debug/YouTubeAndroidPlayerApi-4d9741380ff22ff1c1b80284dac18e064b516103.jar" />
+    </item>
+    <item
+        jar="/home/rohit/Documents/github_garbagebin/GarbageBin/GarbageBin/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d405025c600055237c171a0bbabaa49d69696573">
+        <dex dex="/home/rohit/Documents/github_garbagebin/GarbageBin/GarbageBin/app/build/intermediates/pre-dexed/debug/classes-1472905cf893cb96b1d1aa3233013d4d814fea10.jar" />
+    </item>
+    <item
+        jar="/home/rohit/Documents/github_garbagebin/GarbageBin/GarbageBin/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
+        <dex dex="/home/rohit/Documents/github_garbagebin/GarbageBin/GarbageBin/app/build/intermediates/pre-dexed/debug/classes-c1bd2903d2361092d646b7dd085c0f196c195c7b.jar" />
+    </item>
+    <item
+        jar="/home/rohit/Documents/Backup GarbageBin/26 nov Fi/GarbageBin/app/libs/YouTubeAndroidPlayerApi.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="29ccfbddf99584bddbaab62c0cf50dcd1c564e43">
+        <dex dex="/home/rohit/Documents/Backup GarbageBin/26 nov Fi/GarbageBin/app/build/intermediates/pre-dexed/debug/YouTubeAndroidPlayerApi-f1e9db97f9fd9ecc29a76cc54132e4eccc5995f8.jar" />
+    </item>
+    <item
+        jar="/home/rohit/Documents/github_garbagebin/GarbageBin/GarbageBin/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8d736fefa22d896e84a268354b3ed48a42663150">
+        <dex dex="/home/rohit/Documents/github_garbagebin/GarbageBin/GarbageBin/app/build/intermediates/pre-dexed/debug/classes-8c3e68e0f8082ff79b924559d277e8a0c7255990.jar" />
+    </item>
+    <item
+        jar="/home/rohit/Documents/github_garbagebin/GarbageBin/GarbageBin/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1a6411087ab88ce5542f593e63a2752b6b0d6f1a">
+        <dex dex="/home/rohit/Documents/github_garbagebin/GarbageBin/GarbageBin/app/build/intermediates/pre-dexed/debug/classes-943ce662ee83a3b1f22f21d49225618c0aa68c5d.jar" />
+    </item>
+    <item
+        jar="/home/rohit/Documents/github_garbagebin/GarbageBin/GarbageBin/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a78183f30e769a98ab4820794f597763088d3065">
+        <dex dex="/home/rohit/Documents/github_garbagebin/GarbageBin/GarbageBin/app/build/intermediates/pre-dexed/debug/classes-9f0b240c2bc849fea570ca4ce79c1b984ecf4836.jar" />
+    </item>
+    <item
+        jar="/home/rohit/Documents/Backup GarbageBin/26 nov Fi/GarbageBin/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/libs/internal_impl-22.2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="/home/rohit/Documents/Backup GarbageBin/26 nov Fi/GarbageBin/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.1-388cd9d12b8b9d2f716bb743e6893a237b725abd.jar" />
+    </item>
+    <item
+        jar="/home/rohit/Documents/github_garbagebin/GarbageBin/GarbageBin/app/build/intermediates/exploded-aar/GarbageBin/progressLibrary/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="58bfb87fb522512b18b3b29c6583baaa2391aed9">
+        <dex dex="/home/rohit/Documents/github_garbagebin/GarbageBin/GarbageBin/app/build/intermediates/pre-dexed/debug/classes-22546f96f54e4b5f9320ff43bfaed1c29e0c264e.jar" />
+    </item>
+    <item
+        jar="/home/rohit/Documents/Backup GarbageBin/26 nov Fi/GarbageBin/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="63ec6e9f4fe5482a7447d0f3091b8e543a02554c">
+        <dex dex="/home/rohit/Documents/Backup GarbageBin/26 nov Fi/GarbageBin/app/build/intermediates/pre-dexed/debug/classes-c055e74a157d527355ec35a97e5c9c31244e49f5.jar" />
+    </item>
+    <item
+        jar="/home/rohit/Documents/github_garbagebin/GarbageBin/GarbageBin/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="29ebc7e04d877062317c8cc0e68b20f0c1fcda66">
+        <dex dex="/home/rohit/Documents/github_garbagebin/GarbageBin/GarbageBin/app/build/intermediates/pre-dexed/debug/classes-e79fc1c558204f0aa39fb8ef2ae5315680acbfcc.jar" />
+    </item>
+    <item
+        jar="/home/rohit/Documents/Backup GarbageBin/26 nov Fi/GarbageBin/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6836d188602ec5382d1967c58b00960eb8ff8773">
+        <dex dex="/home/rohit/Documents/Backup GarbageBin/26 nov Fi/GarbageBin/app/build/intermediates/pre-dexed/debug/classes-ffa216ba38bce14a5ddeb4bd954ce36be5cef0b1.jar" />
+    </item>
+    <item
+        jar="/home/rohit/Documents/github_garbagebin/GarbageBin/GarbageBin/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/jars/libs/internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ba3df4eb0a630d7de294f0e48d3f9267d279b784">
+        <dex dex="/home/rohit/Documents/github_garbagebin/GarbageBin/GarbageBin/app/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-d690cf252bb488c713c9ef08f4c1220f9ed59e8a.jar" />
+    </item>
+    <item
+        jar="/home/rohit/Documents/github_garbagebin/GarbageBin/GarbageBin/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1e98ef3f124bb7a11f8575f9ff5dfea330b61b6f">
+        <dex dex="/home/rohit/Documents/github_garbagebin/GarbageBin/GarbageBin/app/build/intermediates/pre-dexed/debug/classes-af41287b362b7dcba04538bc0aa752e098ffa836.jar" />
+    </item>
+    <item
+        jar="/home/rohit/Documents/Backup GarbageBin/26 nov Fi/GarbageBin/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a78183f30e769a98ab4820794f597763088d3065">
+        <dex dex="/home/rohit/Documents/Backup GarbageBin/26 nov Fi/GarbageBin/app/build/intermediates/pre-dexed/debug/classes-2003092a00b6abb97c1aefd6629d3d99e1ecf49a.jar" />
+    </item>
+    <item
+        jar="/home/rohit/Documents/Backup GarbageBin/26 nov Fi/GarbageBin/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a172852a35ff919e85b9b7f14bbc15c5bee25520">
+        <dex dex="/home/rohit/Documents/Backup GarbageBin/26 nov Fi/GarbageBin/app/build/intermediates/pre-dexed/debug/classes-5725edec49a54c36d954caaf8ccfdbdf78afb72f.jar" />
+    </item>
+    <item
+        jar="/home/rohit/Documents/github_garbagebin/GarbageBin/GarbageBin/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="69dd177337ead693c408c8dddc9546bb6f1244fa">
+        <dex dex="/home/rohit/Documents/github_garbagebin/GarbageBin/GarbageBin/app/build/intermediates/pre-dexed/debug/classes-344e2724db1ee6b8f3f51de8ca8e3050ed8e258d.jar" />
+    </item>
+    <item
+        jar="/home/rohit/Documents/Backup GarbageBin/26 nov Fi/GarbageBin/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/22.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="3abb4b88f5a8a0584a9b01d3170d7165f12f8588">
+        <dex dex="/home/rohit/Documents/Backup GarbageBin/26 nov Fi/GarbageBin/app/build/intermediates/pre-dexed/debug/classes-f3d01339f07cf162cd24dba736fa7afc13a6f6f7.jar" />
+    </item>
+    <item
+        jar="/home/rohit/Documents/Backup GarbageBin/26 nov Fi/GarbageBin/app/build/intermediates/exploded-aar/com.android.support/design/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="fc63b820d54c8a27a3a614bdd93920e0076581c2">
+        <dex dex="/home/rohit/Documents/Backup GarbageBin/26 nov Fi/GarbageBin/app/build/intermediates/pre-dexed/debug/classes-5064c992f7f198e44039aff28b5fafd50374fc29.jar" />
+    </item>
+    <item
+        jar="/home/rohit/Documents/github_garbagebin/GarbageBin/GarbageBin/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/libs/internal_impl-22.2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="/home/rohit/Documents/github_garbagebin/GarbageBin/GarbageBin/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.1-da4660d50cef42cb30effd1fe111cc6a308ec3ab.jar" />
+    </item>
+    <item
+        jar="/home/rohit/Documents/Backup GarbageBin/26 nov Fi/GarbageBin/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ba207be21987c11b37d9f8faa08ed6e722569f30">
+        <dex dex="/home/rohit/Documents/Backup GarbageBin/26 nov Fi/GarbageBin/app/build/intermediates/pre-dexed/debug/classes-62435ca80e3c186a64c360bf5d6474c1dbad3465.jar" />
+    </item>
+    <item
+        jar="/home/rohit/Documents/github_garbagebin/GarbageBin/GarbageBin/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="06a42becc33232ec0ee125161da68c1829c9f8fd">
+        <dex dex="/home/rohit/Documents/github_garbagebin/GarbageBin/GarbageBin/app/build/intermediates/pre-dexed/debug/classes-7a19a9faa5dc92dcc87c61fbc61a033ad0742ca7.jar" />
+    </item>
+    <item
+        jar="/home/rohit/Documents/Backup GarbageBin/26 nov Fi/GarbageBin/app/libs/commons-lang-2.5.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b0236b252e86419eef20c31a44579d2aee2f0a69">
+        <dex dex="/home/rohit/Documents/Backup GarbageBin/26 nov Fi/GarbageBin/app/build/intermediates/pre-dexed/debug/commons-lang-2.5-157bc002f5d5f3caf8cd46d702d146bc99a43895.jar" />
+    </item>
+    <item
+        jar="/home/rohit/Documents/Backup GarbageBin/26 nov Fi/GarbageBin/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="06a42becc33232ec0ee125161da68c1829c9f8fd">
+        <dex dex="/home/rohit/Documents/Backup GarbageBin/26 nov Fi/GarbageBin/app/build/intermediates/pre-dexed/debug/classes-8a6d613713ce7bdbf4f0450dca82ec297d05cc03.jar" />
+    </item>
+    <item
+        jar="/home/rohit/Documents/github_garbagebin/GarbageBin/GarbageBin/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appstate/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="68c140702c7242d914655bcb3164d9e8c45b84cb">
+        <dex dex="/home/rohit/Documents/github_garbagebin/GarbageBin/GarbageBin/app/build/intermediates/pre-dexed/debug/classes-2932f0ed70ff5c9cf87068d049ce2b9bcdc8c03a.jar" />
+    </item>
+    <item
+        jar="/home/rohit/Documents/Backup GarbageBin/26 nov Fi/GarbageBin/app/build/intermediates/exploded-aar/GarbageBin/progressLibrary/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="07532078b0c8dfaf7d8014e91b67211097bc7eff">
+        <dex dex="/home/rohit/Documents/Backup GarbageBin/26 nov Fi/GarbageBin/app/build/intermediates/pre-dexed/debug/classes-223dab927e762d88ac04583d2636d074129e209e.jar" />
+    </item>
+    <item
+        jar="/home/rohit/Documents/github_garbagebin/GarbageBin/GarbageBin/app/build/intermediates/exploded-aar/GarbageBin/volleey/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="49e6dd58b66f232eee71a2eff7e784a65a4a9579">
+        <dex dex="/home/rohit/Documents/github_garbagebin/GarbageBin/GarbageBin/app/build/intermediates/pre-dexed/debug/classes-b7526c77a2ff111c27c29656663fbbfb6e4be4a4.jar" />
+    </item>
+    <item
+        jar="/home/rohit/Documents/Backup GarbageBin/26 nov Fi/GarbageBin/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a1372c17fccacca753d3951d3ad820571cbce075">
+        <dex dex="/home/rohit/Documents/Backup GarbageBin/26 nov Fi/GarbageBin/app/build/intermediates/pre-dexed/debug/classes-56b18d00d19413e5b9a95d9351d308ac36d344d1.jar" />
+    </item>
+    <item
+        jar="/home/rohit/Documents/github_garbagebin/GarbageBin/GarbageBin/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f02127a85abd52a2cd526d4c2409f21969f80ee8">
+        <dex dex="/home/rohit/Documents/github_garbagebin/GarbageBin/GarbageBin/app/build/intermediates/pre-dexed/debug/classes-b8c929233ca7794d82df2bf9645a372542391e4e.jar" />
+    </item>
+    <item
+        jar="/home/rohit/Documents/Backup GarbageBin/26 nov Fi/GarbageBin/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1a6411087ab88ce5542f593e63a2752b6b0d6f1a">
+        <dex dex="/home/rohit/Documents/Backup GarbageBin/26 nov Fi/GarbageBin/app/build/intermediates/pre-dexed/debug/classes-1671efe7245f0d07b3c9796a2303dfe471aad504.jar" />
+    </item>
+    <item
+        jar="/home/rohit/Documents/Backup GarbageBin/26 nov Fi/GarbageBin/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="/home/rohit/Documents/Backup GarbageBin/26 nov Fi/GarbageBin/app/build/intermediates/pre-dexed/debug/classes-0c93189b6438b75c65d4e8f44e0dabd57bcbedc8.jar" />
+    </item>
+    <item
+        jar="/home/rohit/Documents/github_garbagebin/GarbageBin/GarbageBin/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f44d03c138cb6488fdbaa65e3a7e5878861a56d8">
+        <dex dex="/home/rohit/Documents/github_garbagebin/GarbageBin/GarbageBin/app/build/intermediates/pre-dexed/debug/classes-a75c20260820d8dc1abfd5b6408501b88923ddd3.jar" />
+    </item>
+    <item
+        jar="/home/rohit/Documents/Backup GarbageBin/26 nov Fi/GarbageBin/app/build/intermediates/exploded-aar/GarbageBin/volleey/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="483fc2d20f9a9a6b2e064153c6dac2cf02d707c4">
+        <dex dex="/home/rohit/Documents/Backup GarbageBin/26 nov Fi/GarbageBin/app/build/intermediates/pre-dexed/debug/classes-fe17f4c0298d372226106e4688b8619a8d6b2549.jar" />
+    </item>
+    <item
+        jar="/home/rohit/Documents/android setup/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.1/support-annotations-22.2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="/home/rohit/Documents/github_garbagebin/GarbageBin/GarbageBin/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.1-edf0213976946dc786180b7931c9c18ce596b385.jar" />
+    </item>
+    <item
+        jar="/home/rohit/Documents/Backup GarbageBin/26 nov Fi/GarbageBin/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f44d03c138cb6488fdbaa65e3a7e5878861a56d8">
+        <dex dex="/home/rohit/Documents/Backup GarbageBin/26 nov Fi/GarbageBin/app/build/intermediates/pre-dexed/debug/classes-77a69136c6b9eeb21da57603847ff8d4a374520f.jar" />
+    </item>
+    <item
+        jar="/home/rohit/Documents/github_garbagebin/GarbageBin/GarbageBin/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6836d188602ec5382d1967c58b00960eb8ff8773">
+        <dex dex="/home/rohit/Documents/github_garbagebin/GarbageBin/GarbageBin/app/build/intermediates/pre-dexed/debug/classes-cca2da97d543b89979ac74e5104412b8a326d960.jar" />
+    </item>
+    <item
+        jar="/home/rohit/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.5.2/ecf534dba3a8446ce84cbb797d314763be212a68/glide-3.5.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ecf534dba3a8446ce84cbb797d314763be212a68">
+        <dex dex="/home/rohit/Documents/github_garbagebin/GarbageBin/GarbageBin/app/build/intermediates/pre-dexed/debug/glide-3.5.2-f36710c108ccb55433f04e20bf6fe10f6521610f.jar" />
+    </item>
+    <item
+        jar="/home/rohit/Documents/github_garbagebin/GarbageBin/GarbageBin/app/build/intermediates/exploded-aar/com.android.support/design/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="fc63b820d54c8a27a3a614bdd93920e0076581c2">
+        <dex dex="/home/rohit/Documents/github_garbagebin/GarbageBin/GarbageBin/app/build/intermediates/pre-dexed/debug/classes-3167260b77f0f29b10ddf4d7e54763ab1b8d1652.jar" />
+    </item>
+    <item
+        jar="/home/rohit/Documents/github_garbagebin/GarbageBin/GarbageBin/app/build/intermediates/exploded-aar/GarbageBin/library/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="098fc2996085303b31e4488c74328c8301d488f1">
+        <dex dex="/home/rohit/Documents/github_garbagebin/GarbageBin/GarbageBin/app/build/intermediates/pre-dexed/debug/classes-0ade61fab23739bbaaa48c5cd187d6d46f979c88.jar" />
+    </item>
+    <item
+        jar="/home/rohit/Documents/Backup GarbageBin/26 nov Fi/GarbageBin/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8e3a972f28b8bae817e382257ba177a31bcadbbc">
+        <dex dex="/home/rohit/Documents/Backup GarbageBin/26 nov Fi/GarbageBin/app/build/intermediates/pre-dexed/debug/classes-31fd8ad820300cfc76376d1a0721e67554a6bffb.jar" />
+    </item>
+    <item
+        jar="/home/rohit/Documents/github_garbagebin/GarbageBin/GarbageBin/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="02bac2dc792d78241077861566f2c82da955e7fa">
+        <dex dex="/home/rohit/Documents/github_garbagebin/GarbageBin/GarbageBin/app/build/intermediates/pre-dexed/debug/classes-0ca1bb454ca4304b87fc512578ecfa2832efdc8b.jar" />
+    </item>
+    <item
+        jar="/home/rohit/Documents/github_garbagebin/GarbageBin/GarbageBin/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="272bc5d7063f24bc3a33ea1d318cde8f31f5ec4c">
+        <dex dex="/home/rohit/Documents/github_garbagebin/GarbageBin/GarbageBin/app/build/intermediates/pre-dexed/debug/classes-fcace0c7b94a85b3fa59198b475ce80b539222a8.jar" />
+    </item>
+    <item
+        jar="/home/rohit/Documents/github_garbagebin/GarbageBin/GarbageBin/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a172852a35ff919e85b9b7f14bbc15c5bee25520">
+        <dex dex="/home/rohit/Documents/github_garbagebin/GarbageBin/GarbageBin/app/build/intermediates/pre-dexed/debug/classes-9338d21472e256310d2ebb29c4d68be1652ef16a.jar" />
+    </item>
+    <item
+        jar="/home/rohit/Documents/Backup GarbageBin/26 nov Fi/GarbageBin/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6440e5e5cfe368f9bff3c537fb8988048069cb33">
+        <dex dex="/home/rohit/Documents/Backup GarbageBin/26 nov Fi/GarbageBin/app/build/intermediates/pre-dexed/debug/classes-4358b03d79b99034ed7f9d0117e287c82ab4478f.jar" />
+    </item>
+    <item
+        jar="/home/rohit/Documents/Backup GarbageBin/26 nov Fi/GarbageBin/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f02127a85abd52a2cd526d4c2409f21969f80ee8">
+        <dex dex="/home/rohit/Documents/Backup GarbageBin/26 nov Fi/GarbageBin/app/build/intermediates/pre-dexed/debug/classes-1e580a5883c026d1d8ebab87af7a59b934a02bc3.jar" />
+    </item>
+    <item
+        jar="/home/rohit/Documents/github_garbagebin/GarbageBin/GarbageBin/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/22.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="3abb4b88f5a8a0584a9b01d3170d7165f12f8588">
+        <dex dex="/home/rohit/Documents/github_garbagebin/GarbageBin/GarbageBin/app/build/intermediates/pre-dexed/debug/classes-a78cd405350c3586eb105cc1f4f54a3c12778255.jar" />
+    </item>
+    <item
+        jar="/home/rohit/Documents/Backup GarbageBin/26 nov Fi/GarbageBin/app/build/intermediates/exploded-aar/com.intuit.sdp/sdp-android/1.0.2/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="5831c1517a9c80bf19a6b76ad23b898a7d827c0f">
+        <dex dex="/home/rohit/Documents/Backup GarbageBin/26 nov Fi/GarbageBin/app/build/intermediates/pre-dexed/debug/classes-f7600e3ab29ea5dfd1baf577683d4c5b781f2743.jar" />
+    </item>
+    <item
+        jar="/home/rohit/Documents/Backup GarbageBin/26 nov Fi/GarbageBin/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="29ebc7e04d877062317c8cc0e68b20f0c1fcda66">
+        <dex dex="/home/rohit/Documents/Backup GarbageBin/26 nov Fi/GarbageBin/app/build/intermediates/pre-dexed/debug/classes-023c04e2ea853d3e7dd5116c72f812a188c2b5fc.jar" />
+    </item>
+    <item
+        jar="/home/rohit/Documents/Backup GarbageBin/26 nov Fi/GarbageBin/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appstate/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="68c140702c7242d914655bcb3164d9e8c45b84cb">
+        <dex dex="/home/rohit/Documents/Backup GarbageBin/26 nov Fi/GarbageBin/app/build/intermediates/pre-dexed/debug/classes-c6b888212b768c6db8131b5d25f98c2bc28a70c1.jar" />
+    </item>
+    <item
+        jar="/home/rohit/Documents/github_garbagebin/GarbageBin/GarbageBin/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8e3a972f28b8bae817e382257ba177a31bcadbbc">
+        <dex dex="/home/rohit/Documents/github_garbagebin/GarbageBin/GarbageBin/app/build/intermediates/pre-dexed/debug/classes-c8c5ee34d7818f85a01d669b9f18021fd2d00a15.jar" />
+    </item>
+    <item
+        jar="/home/rohit/Documents/github_garbagebin/GarbageBin/GarbageBin/app/libs/commons-lang-2.5.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b0236b252e86419eef20c31a44579d2aee2f0a69">
+        <dex dex="/home/rohit/Documents/github_garbagebin/GarbageBin/GarbageBin/app/build/intermediates/pre-dexed/debug/commons-lang-2.5-794610222c1a219b41d823bc8250dd7a3e7c19d3.jar" />
+    </item>
+    <item
+        jar="/home/rohit/Documents/Backup GarbageBin/26 nov Fi/GarbageBin/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/jars/libs/internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ba3df4eb0a630d7de294f0e48d3f9267d279b784">
+        <dex dex="/home/rohit/Documents/Backup GarbageBin/26 nov Fi/GarbageBin/app/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-2c0f616926e7e7aa59a4368742515f765f4b1435.jar" />
+    </item>
+    <item
+        jar="/home/rohit/Documents/github_garbagebin/GarbageBin/GarbageBin/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6440e5e5cfe368f9bff3c537fb8988048069cb33">
+        <dex dex="/home/rohit/Documents/github_garbagebin/GarbageBin/GarbageBin/app/build/intermediates/pre-dexed/debug/classes-3bb6d9235f7fedb95232a575d40b603b03c6b7a1.jar" />
+    </item>
+    <item
+        jar="/home/rohit/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.2.0/6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd/bolts-android-1.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd">
+        <dex dex="/home/rohit/Documents/github_garbagebin/GarbageBin/GarbageBin/app/build/intermediates/pre-dexed/debug/bolts-android-1.2.0-7d0a1679d95a80c6edecfa06dacfb0fc859ad158.jar" />
+    </item>
+    <item
+        jar="/home/rohit/Documents/Backup GarbageBin/26 nov Fi/GarbageBin/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
+        <dex dex="/home/rohit/Documents/Backup GarbageBin/26 nov Fi/GarbageBin/app/build/intermediates/pre-dexed/debug/classes-7fb5a64834908296abb2bb49ec04d9de69d9a961.jar" />
+    </item>
+    <item
+        jar="/home/rohit/Documents/github_garbagebin/GarbageBin/GarbageBin/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e7b35244f50663b3f8d150714bca9ecd7a290da1">
+        <dex dex="/home/rohit/Documents/github_garbagebin/GarbageBin/GarbageBin/app/build/intermediates/pre-dexed/debug/classes-dae7cae4036d412215a7df435da3e6890aab2922.jar" />
+    </item>
+    <item
+        jar="/home/rohit/Documents/github_garbagebin/GarbageBin/GarbageBin/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="63ec6e9f4fe5482a7447d0f3091b8e543a02554c">
+        <dex dex="/home/rohit/Documents/github_garbagebin/GarbageBin/GarbageBin/app/build/intermediates/pre-dexed/debug/classes-ea5f61ba3b29f3d0994ff9e1be22f623e502bd1b.jar" />
+    </item>
+    <item
+        jar="/home/rohit/Documents/github_garbagebin/GarbageBin/GarbageBin/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="/home/rohit/Documents/github_garbagebin/GarbageBin/GarbageBin/app/build/intermediates/pre-dexed/debug/classes-4228f55b99dff71ef088d2006e66f0fc8ed50116.jar" />
+    </item>
+    <item
+        jar="/home/rohit/Documents/github_garbagebin/GarbageBin/GarbageBin/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a1372c17fccacca753d3951d3ad820571cbce075">
+        <dex dex="/home/rohit/Documents/github_garbagebin/GarbageBin/GarbageBin/app/build/intermediates/pre-dexed/debug/classes-94590d403965f8f99614c0f3b23ad95f30657977.jar" />
+    </item>
+
+</items>

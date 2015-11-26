@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cream_color"
+    tools:context="garbagebin.com.garbagebin.TimeLineDetailActivity">
+
+    <FrameLayout
+        android:id="@+id/comments_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical">
+
+        <com.pulltozoom_scroll.PullToZoomListView
+            android:id="@+id/comments_listView"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:divider="@color/light_grey"
+            android:listSelector="@android:color/transparent"
+            android:cacheColorHint="@android:color/transparent"
+            android:dividerHeight="0.25dp"
+            >
+
+        </com.pulltozoom_scroll.PullToZoomListView>
+
+        <TextView
+            android:id="@+id/be_first_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:text="@string/be_first_tv"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            android:textColor="@color/light_black"
+            />
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/loadMore_comments_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:layout_gravity="center"
+        android:layout_below="@+id/comments_layout"
+        android:gravity="center"
+        android:text="Load More Comments"
+        android:textStyle="bold"
+        android:padding="5dp"
+
+        android:visibility="visible"
+        android:textColor="@color/facebook_bg"/>
+
+    <ImageView
+        android:id="@+id/back_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:visibility="visible"
+        android:src="@drawable/back_icon"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_black"
+    tools:context="garbagebin.com.garbagebin.ComicStrip">
+    <FrameLayout
+        android:id="@+id/timeline_comic_strip"
+        android:layout_width="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_height="match_parent"
+        >
+        <Gallery
+            android:id="@+id/comic_gallery"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="visible">
+
+        </Gallery>
+
+        <ImageView
+            android:id="@+id/comic_leftimg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|left"
+            android:layout_marginRight="5dp"
+            android:padding="15dp"
+            android:src="@drawable/left_arrow"/>
+
+        <ImageView
+            android:id="@+id/comic_rightimg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|right"
+            android:padding="15dp"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/right_arrow"/>
+        <ImageView
+            android:id="@+id/comic_cross_img"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="top|right"
+            android:padding="15dp"
+            android:src="@drawable/crosscancel"/>
+    </FrameLayout>
+</RelativeLayout>

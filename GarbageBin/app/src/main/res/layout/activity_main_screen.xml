@@ -1,0 +1,266 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/cream_color"
+
+    tools:context="garbagebin.com.garbagebin.MainScreen">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg"
+        android:orientation="vertical">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="1"
+            >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="vertical"
+                android:layout_weight="0.5"
+                android:gravity="center"
+                >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/logo"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="vertical"
+                android:layout_weight="0.5"
+                android:weightSum="1"
+                android:padding="5dp"
+                android:background="@drawable/background"
+                >
+
+                <com.garbagebin.fonts_classes.GothamBookTextView
+                    android:id="@+id/dntworry_textview"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.15"
+                    android:textSize="16sp"
+                    android:text="@string/dntworry_textview"
+                    android:textColor="@color/text_grey"
+                    android:gravity="center"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.2"
+                    android:paddingTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/facebook_bg">
+
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal"
+                            >
+
+                            <com.facebook.login.widget.LoginButton
+                                android:id="@+id/fb_main_button"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text=""
+                                android:textColor="@android:color/transparent"
+                                android:background="@android:color/transparent"
+                                />
+
+                            <com.garbagebin.fonts_classes.GothamBookTextView
+                                android:id="@+id/signup_fb_textview"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="@string/fb_btn"
+                                android:textColor="@android:color/white"
+                                android:paddingTop="12dp"
+                                android:paddingBottom="12dp"
+                                android:gravity="center"
+                                android:elevation="10dp"
+                                android:translationZ="10dp"
+                                android:textSize="16sp"
+                                android:layout_gravity="center"
+                                />
+                        </FrameLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="center|left"
+                            android:paddingLeft="15dp"
+                            android:paddingRight="15dp"
+                            android:background="@drawable/fb_icon"
+                            >
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/facebook"/>
+
+                        </LinearLayout>
+
+
+                    </FrameLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.2"
+                    android:paddingTop="5dp"
+                    android:orientation="horizontal">
+                    <FrameLayout
+                        android:id="@+id/google_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:background="@drawable/google_bg">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:paddingLeft="8dp"
+                            android:paddingRight="8dp"
+                            android:background="@drawable/google_icon"
+                            >
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/google"/>
+
+                        </LinearLayout>
+
+                        <com.garbagebin.fonts_classes.GothamBookTextView
+                            android:id="@+id/google_textview"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/google_btn"
+                            android:textColor="@android:color/white"
+                            android:paddingTop="12dp"
+                            android:paddingBottom="12dp"
+                            android:gravity="center"
+                            android:textSize="16sp"
+                            android:layout_gravity="center"
+                            android:elevation="10dp"
+                            android:translationZ="10dp"
+                            />
+
+                    </FrameLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.1"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/or"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.25"
+                    android:weightSum="1"
+                    android:orientation="horizontal"
+                    >
+
+                    <com.garbagebin.fonts_classes.GothamBookTextView
+                        android:id="@+id/login_textview"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/login_textview"
+                        android:textColor="@color/white"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:layout_weight="0.5"
+                        android:padding="15dp"
+                        android:alpha="0.3"
+                        android:elevation="10dp"
+                        android:layout_marginRight="5dp"
+                        android:translationZ="10dp"
+                        android:background="@drawable/login_btn_bg"
+                        />
+
+                    <com.garbagebin.fonts_classes.GothamBookTextView
+                        android:id="@+id/signup_textview"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/signup_textview"
+                        android:textColor="@android:color/black"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:layout_weight="0.5"
+                        android:padding="15dp"
+                        android:layout_marginLeft="5dp"
+                        android:elevation="10dp"
+                        android:translationZ="10dp"
+                        android:background="@drawable/signup"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.1"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+                    <com.garbagebin.fonts_classes.GothamBookTextView
+                        android:id="@+id/termsOfService_textview"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/termsOfService_textview"
+                        android:textColor="@color/text_grey"
+                        android:gravity="center"
+                        />
+                    <com.garbagebin.fonts_classes.GothamBookTextView
+                        android:id="@+id/and_textview"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/and_textview"
+                        android:textColor="@color/text_grey"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:gravity="center"
+                        />
+                    <com.garbagebin.fonts_classes.GothamBookTextView
+                        android:id="@+id/privacy_textview"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/privacy_textview"
+                        android:textColor="@color/orange"
+
+                        android:gravity="center"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

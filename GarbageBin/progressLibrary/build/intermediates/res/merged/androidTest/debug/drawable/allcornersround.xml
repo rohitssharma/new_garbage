@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#ffffffff" />
+
+    <stroke
+        android:width="1.5dp"
+        android:color="@android:color/white" />
+
+    <!--<padding-->
+        <!--android:bottom="1dp"-->
+        <!--android:left="1dp"-->
+        <!--android:right="1dp"-->
+        <!--android:top="1dp" />-->
+
+
+
+
+    <corners android:radius="8dp" />
+
+    <!--<gradient-->
+        <!--android:endColor="@android:color/transparent"-->
+        <!--android:startColor="@android:color/transparent" />-->
+</shape><!-- From: file:/home/rohit/Documents/github_garbagebin/GarbageBin/GarbageBin/progressLibrary/src/main/res/drawable/allcornersround.xml --><!-- From: file:/home/rohit/Documents/github_garbagebin/GarbageBin/GarbageBin/progressLibrary/build/intermediates/bundles/debug/res/drawable/allcornersround.xml -->

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="5"
+    android:background="#424242"
+    >
+
+    <LinearLayout
+        android:id="@+id/hotgags_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:padding="5dp"
+        android:layout_gravity="center"
+        android:background="#424242">
+
+        <ImageView
+            android:id="@+id/hot_gags_imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:src="@drawable/iccon_hotgags" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/videos_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:padding="5dp"
+        android:layout_gravity="center"
+        android:background="#424242" >
+
+        <ImageView
+            android:id="@+id/videos_imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:src="@drawable/iccon_videos" />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/home_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:padding="5dp"
+        android:layout_gravity="center"
+        android:background="#424242">
+
+        <ImageView
+            android:id="@+id/home_imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:src="@drawable/icon_menu" />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/search_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:padding="5dp"
+        android:layout_gravity="center"
+        android:background="#424242" >
+
+        <ImageView
+            android:id="@+id/search_imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:src="@drawable/iccon_search" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/cart_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:padding="5dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:background="#424242" >
+
+        <ImageView
+            android:id="@+id/cart_imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:src="@drawable/iccon_store" />
+    </LinearLayout>
+
+</LinearLayout>

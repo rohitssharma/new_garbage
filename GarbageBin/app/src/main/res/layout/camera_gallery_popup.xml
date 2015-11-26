@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B3000000" >
+
+    <RelativeLayout
+        android:id="@+id/dialog_rel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="15dp"
+        android:background="@drawable/popup_bg_bg" >
+
+        <TextView
+            android:id="@+id/heading"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="Make Your Choice"
+            android:textColor="#C0C0C0"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/camera_text"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/heading"
+            android:gravity="center"
+            android:text="Camera"
+            android:textColor="#1F86F7"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/open_gallery_text"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/camera_text"
+            android:gravity="center"
+            android:text="Open Gallery"
+            android:textColor="#1F86F7"
+            android:textSize="17sp" />
+
+        <!--<TextView-->
+            <!--android:id="@+id/remove_photo_text"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="40dp"-->
+            <!--android:layout_below="@+id/open_gallery_text"-->
+            <!--android:gravity="center"-->
+            <!--android:text="Remove Photo"-->
+            <!--android:textColor="#1F86F7"-->
+            <!--android:textSize="17sp" />-->
+
+        <!--<View-->
+            <!--android:id="@+id/transparent_view"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="1dp"-->
+            <!--android:layout_below="@+id/remove_photo_text"-->
+            <!--android:background="#00000000" />-->
+
+        <TextView
+            android:id="@+id/cancel_text"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/open_gallery_text"
+            android:gravity="center"
+            android:text="Cancel"
+            android:textColor="#1F86F7"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+</RelativeLayout>

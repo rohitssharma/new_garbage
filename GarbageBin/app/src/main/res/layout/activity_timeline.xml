@@ -1,0 +1,93 @@
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawerLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cream_color"
+    tools:context="garbagebin.com.garbagebin.Timeline">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/cream_color">
+
+            <include
+                layout="@layout/header"
+                android:id="@+id/header_lyt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true" />
+
+            <!--<FrameLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!-->-->
+            <!-- -->
+            <!--<ImageView-->
+            <!--android:id="@+id/fabButton"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="bottom|right"-->
+            <!--android:layout_marginBottom="16dp"-->
+            <!--android:layout_marginRight="16dp"-->
+            <!--android:src="@drawable/infinity"-->
+            <!--android:contentDescription="@string/app_name"/>-->
+            <!-- -->
+
+            <FrameLayout
+                android:id="@+id/content_frame"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/bottom"
+                android:layout_below="@+id/header_lyt"
+
+                />
+            <!--</FrameLayout>-->
+
+
+            <include
+                android:id="@+id/bottom"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                layout="@layout/bottom_lyt"
+                android:layout_alignParentBottom="true" />
+
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:id="@+id/flyt_blurimg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"
+            android:orientation="vertical"
+            android:background="@drawable/blur_bg">
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+    <include
+        layout="@layout/right_slide_menu"
+        android:id="@+id/right_drawer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="end"
+        android:choiceMode="singleChoice"
+        android:layout_alignParentTop="true" />
+
+    <include
+        layout="@layout/slide_menu"
+        android:id="@+id/left_drawer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:choiceMode="singleChoice"
+        android:layout_alignParentTop="true" />
+
+</android.support.v4.widget.DrawerLayout>

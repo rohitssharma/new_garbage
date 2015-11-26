@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B3000000"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:padding="@dimen/_20sdp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_10sdp"
+        android:background="@drawable/white_background"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:textSize="@dimen/_14sdp"
+            android:textStyle="bold"
+
+            android:gravity="center"
+            android:textColor="@color/blue_header"
+
+            android:layout_gravity="center"
+            android:text="Forgot Password"/>
+
+        <EditText
+            android:id="@+id/forgot_emailAddress_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:hint="@string/emailAddress_et"
+            android:padding="15dp"
+            android:textColor="@color/light_black"
+            android:textSize="@dimen/_12sdp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:inputType="textEmailAddress" />
+
+        <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginTop="@dimen/_3sdp"
+        android:background="@color/grey_color"
+        />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:id="@+id/forgot_save_btn"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_gravity="center"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:layout_marginRight="5dp"
+                android:textAllCaps="false"
+                android:background="@color/blue_header"
+                android:text="Save"/>
+
+            <Button
+                android:id="@+id/forgot_cancel_btn"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_gravity="center"
+                android:textColor="@color/white"
+                android:layout_weight="1"
+                android:textSize="14sp"
+                android:padding="5dp"
+                android:textAllCaps="false"
+                android:layout_marginLeft="5dp"
+                android:background="@color/blue_header"
+                android:text="Cancel"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

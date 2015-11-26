@@ -1,0 +1,261 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    android:background="@color/cream_color"
+    tools:context="garbagebin.com.garbagebin.EditProfileActivity">
+
+    <include
+        android:id="@+id/header_lyt"
+        layout="@layout/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/header_lyt"
+        android:fillViewport="true"
+
+        android:overScrollMode="never"
+        android:scrollbars="none">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/profile_pic_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/profile_pic_tv"
+                    android:textColor="@color/grey_edit_color"
+                    android:textSize="14sp" />
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="30dp">
+
+                    <com.garbagebin.Utils.CircleImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:src="@drawable/profile_pic_sec" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|bottom|right"
+                        android:src="@drawable/edit"
+                        />
+                </FrameLayout>
+
+                <EditText
+                    android:id="@+id/name_edittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/grey_edit_text"
+                    android:drawableLeft="@drawable/name"
+                    android:drawablePadding="10dp"
+                    android:hint="@string/name_edittext"
+                    android:inputType="text"
+                    android:padding="15dp"
+                    android:textColor="@color/grey_edit_color"
+                    android:textColorHint="@color/grey_edit_color"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/dob_edittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:drawableLeft="@drawable/dob"
+                    android:drawablePadding="10dp"
+                    android:hint="@string/dob_edittext"
+                    android:inputType="text"
+                    android:padding="15dp"
+                    android:textColor="@color/grey_edit_color"
+                    android:textColorHint="@color/grey_edit_color"
+                    android:textSize="14sp"
+                    android:visibility="gone" />
+
+                <EditText
+                    android:id="@+id/email_edittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:drawableLeft="@drawable/email"
+                    android:drawablePadding="10dp"
+                    android:hint="@string/email_edittext"
+                    android:inputType="textEmailAddress"
+                    android:padding="15dp"
+                    android:textColor="@color/grey_edit_color"
+                    android:textColorHint="@color/grey_edit_color"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/cntactNo_edittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/grey_edit_text"
+                    android:drawableLeft="@drawable/contact_no"
+                    android:drawablePadding="10dp"
+                    android:hint="@string/cntactNo_edittext"
+                    android:inputType="number"
+                    android:padding="15dp"
+                    android:textColor="@color/grey_edit_color"
+                    android:textColorHint="@color/grey_edit_color"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/location_edittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/grey_edit_text"
+                    android:drawableLeft="@drawable/location"
+                    android:drawablePadding="10dp"
+                    android:hint="@string/location_edittext"
+                    android:inputType="text"
+                    android:padding="15dp"
+                    android:textColor="@color/grey_edit_color"
+                    android:textColorHint="@color/grey_edit_color"
+                    android:textSize="14sp"
+                    android:visibility="gone" />
+
+                <EditText
+                    android:id="@+id/address_edittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:drawableLeft="@drawable/address"
+                    android:drawablePadding="10dp"
+                    android:hint="@string/address_edittext"
+                    android:inputType="text"
+                    android:padding="15dp"
+                    android:textColor="@color/grey_edit_color"
+                    android:textColorHint="@color/grey_edit_color"
+                    android:textSize="14sp" />
+
+
+                <!--<EditText-->
+                <!--android:id="@+id/countrry_spinner"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:background="@color/grey_edit_text"-->
+                <!--android:padding="15dp"-->
+                <!--android:hint="@string/coutry_tv"-->
+                <!--android:textColor="@color/grey_edit_color"-->
+                <!--android:textColorHint="@color/grey_edit_color"-->
+                <!--android:textSize="14sp"-->
+                <!--android:clickable="true"-->
+                <!--android:enabled="true"-->
+                <!--android:focusable="false"-->
+                <!--android:focusableInTouchMode="true"-->
+                <!--android:drawableRight="@drawable/address"-->
+                <!--/>-->
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/grey_edit_text">
+
+                    <Spinner
+                        android:id="@+id/countrry_spinner"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="15dp"
+                        android:background="@color/grey_edit_text"
+                        android:prompt="@string/app_name" />
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/country_tv"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:textColor="@color/grey_edit_color"-->
+                        <!--android:layout_gravity="center|left"-->
+                        <!--android:textSize="14sp"-->
+                        <!--android:padding="15dp"-->
+                        <!--android:text="@string/coutry_tv"/>-->
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|right"
+                        android:layout_marginRight="10dp"
+                        android:src="@drawable/address"/>
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white">
+
+                    <Spinner
+                        android:id="@+id/state_spinner"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="15dp"
+                        android:background="@color/white" />
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/state_tv"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_gravity="center|left"-->
+                        <!--android:padding="15dp"-->
+                        <!--android:text="@string/state_tv"-->
+                        <!--android:textColor="@color/grey_edit_color"-->
+                        <!--android:textSize="14sp" />-->
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|right"
+                        android:layout_marginRight="10dp"
+                        android:src="@drawable/address" />
+                </FrameLayout>
+
+                <EditText
+                    android:id="@+id/city_edittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/grey_edit_text"
+                    android:hint="@string/city_tv"
+                    android:inputType="number"
+                    android:padding="15dp"
+                    android:textColor="@color/grey_edit_color"
+                    android:textColorHint="@color/grey_edit_color"
+                    android:textSize="14sp" />
+
+                <Button
+                    android:id="@+id/done_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/orange_dark"
+                    android:padding="5dp"
+                    android:text="@string/done_button"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+        </FrameLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

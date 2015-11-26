@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/float_transparent" />
+    <corners android:radius="6dp"/>
+</shape>   <!-- From: file:/home/rohit/Documents/Backup%20GarbageBin/26%20nov%20Fi/GarbageBin/progressLibrary/src/main/res/drawable/dialog_background.xml -->

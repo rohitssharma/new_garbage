@@ -1,0 +1,340 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cream_color"
+    tools:context="garbagebin.com.garbagebin.SignUpActivity">
+
+    <include
+        layout="@layout/header"
+        android:id="@+id/header_lyt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" />
+
+    <ScrollView
+        android:layout_below="@+id/header_lyt"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never"
+        android:scrollbars="none"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_below="@+id/header_lyt">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="15dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/logo" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/name_et"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edittext_bg"
+                    android:textColorHint="@color/et_border_color"
+                    android:textColor="@color/et_border_color"
+                    android:hint="@string/name_et"
+                    android:inputType="text"
+                    android:padding="15dp" />
+
+                <EditText
+                    android:id="@+id/username_et"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/edittext_bg"
+                    android:textColorHint="@color/et_border_color"
+                    android:textColor="@color/et_border_color"
+                    android:hint="@string/username_et"
+                    android:inputType="text"
+                    android:padding="15dp" />
+
+                <EditText
+                    android:id="@+id/emailAddress_et"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edittext_bg"
+                    android:textColorHint="@color/et_border_color"
+                    android:textColor="@color/et_border_color"
+                    android:hint="@string/emailAddress_et"
+                    android:inputType="textEmailAddress"
+                    android:layout_marginTop="10dp"
+                    android:padding="15dp" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/signup_pwd_et"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/edittext_bg"
+                        android:textColorHint="@color/et_border_color"
+                        android:textColor="@color/et_border_color"
+                        android:hint="@string/pwd_et"
+
+                        android:inputType="textPassword"
+                        android:padding="15dp" />
+
+
+                    <ImageView
+                        android:id="@+id/imv_passwordeye_signup"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignRight="@+id/signup_pwd_et"
+                        android:clickable="true"
+                        android:layout_marginRight="10dp"
+                        android:layout_centerInParent="true"
+
+                        android:contentDescription="@string/app_name"
+                        android:src="@drawable/password" />
+
+                </RelativeLayout>
+
+                <com.garbagebin.fonts_classes.GothamBookTextView
+                    android:id="@+id/promocode_textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/et_border_color"
+                    android:layout_marginTop="10dp"
+                    android:textSize="16sp"
+                    android:text="@string/promocode_textView"
+                    android:gravity="center|left"/>
+
+                <EditText
+                    android:id="@+id/promocode_et"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/et_promocode_bg"
+                    android:textColorHint="@color/light_text_color"
+                    android:textColor="@color/light_text_color"
+                    android:hint="@string/promocode_et"
+                    android:layout_marginTop="10dp"
+                    android:textSize="15sp"
+                    android:drawableRight="@drawable/promo_code"
+                    android:inputType="text"
+                    android:paddingLeft="15dp"
+                    />
+                <CheckBox
+                    android:id="@+id/checkBox_sendOccassional"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:focusable="false"
+                    android:layout_alignParentLeft="true"
+                    android:textColor="@color/light_text_color"
+                    android:button="@drawable/selector_checkbox"
+                    android:layout_gravity="center"
+                    android:padding="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="14sp"
+                    android:text="@string/sendOccasional_textView"
+                    android:focusableInTouchMode="false" />
+
+                <!--<CheckBox-->
+                    <!--android:id="@+id/checkBox_sendOccassional"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginTop="10dp"-->
+                    <!--android:focusable="false"-->
+                    <!--android:background="@drawable/selector_checkbox"-->
+                    <!--android:textColor="@color/light_text_color"-->
+                    <!--android:layout_gravity="center"-->
+                    <!--android:text="@string/sendOccasional_textView"-->
+                    <!--android:focusableInTouchMode="false" />-->
+
+                <Button
+                    android:id="@+id/signup_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/orange_dark"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="@string/signup_button"
+                    android:textColor="@color/white"
+                    android:padding="15dp"
+                    android:textSize="16sp"
+                    android:textAllCaps="false"/>
+
+                <com.garbagebin.fonts_classes.GothamLightTextView
+                    android:id="@+id/alreadymember_textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/light_text_color"
+                    android:layout_marginTop="10dp"
+                    android:textSize="16sp"
+                    android:text="@string/alreadymember_textView"
+                    android:gravity="center" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:src="@drawable/or_login" />
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/facebook_bg">
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        >
+
+                        <com.facebook.login.widget.LoginButton
+                            android:id="@+id/fb_signup_button"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text=""
+                            android:textColor="@android:color/transparent"
+                            android:background="@android:color/transparent"
+                            />
+
+                        <com.garbagebin.fonts_classes.GothamBookTextView
+                            android:id="@+id/signup_fb_textview"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/fb_btn"
+                            android:textColor="@android:color/white"
+                            android:paddingTop="12dp"
+                            android:paddingBottom="12dp"
+                            android:gravity="center"
+                            android:elevation="10dp"
+                            android:translationZ="10dp"
+                            android:textSize="16sp"
+                            android:layout_gravity="center"
+                            />
+                    </FrameLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center|left"
+                        android:paddingLeft="15dp"
+                        android:paddingRight="15dp"
+                        android:background="@drawable/fb_icon"
+                        >
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/facebook"/>
+
+                    </LinearLayout>
+
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/signup_login_google_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/google_bg">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:paddingLeft="8dp"
+                        android:paddingRight="8dp"
+                        android:background="@drawable/google_icon">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/google" />
+
+                    </LinearLayout>
+
+                    <com.garbagebin.fonts_classes.GothamBookTextView
+                        android:id="@+id/signup_login_google_textview"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/google_btn"
+                        android:textColor="@android:color/white"
+                        android:paddingTop="12dp"
+                        android:paddingBottom="12dp"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:textSize="16sp"
+                        android:elevation="10dp"
+                        android:translationZ="10dp" />
+
+                </FrameLayout>
+
+                <com.garbagebin.fonts_classes.GothamBookTextView
+                    android:id="@+id/signup_byLogin_textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/light_text_color"
+                    android:text="@string/byLogin_textView"
+                    android:layout_marginTop="15dp"
+                    android:textSize="12sp"
+                    android:gravity="center" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="2dp">
+
+                    <com.garbagebin.fonts_classes.GothamBookTextView
+                        android:id="@+id/signup_termsOfService_textview"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/termsOfService_textview"
+                        android:textColor="@color/orange"
+                        android:gravity="center"
+                        android:textSize="16sp" />
+
+                    <com.garbagebin.fonts_classes.GothamBookTextView
+                        android:id="@+id/and_textview"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/and_textview"
+                        android:textColor="@color/text_grey"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:gravity="center"
+                        android:textSize="16sp" />
+
+                    <com.garbagebin.fonts_classes.GothamBookTextView
+                        android:id="@+id/signup_privacy_textview"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/privacy_textview"
+                        android:textColor="@color/orange"
+                        android:textSize="16sp"
+                        android:gravity="center" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <include
+        android:id="@+id/header_lyt"
+        layout="@layout/header_sec_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/header_lyt"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/basicinfo_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:hint="@string/basicinfo_et"
+            android:paddingLeft="@dimen/_20sdp"
+            android:paddingRight="@dimen/_20sdp"
+            android:paddingTop="@dimen/_20sdp"
+            android:clickable="false"
+            android:focusable="false"
+            android:textColor="@color/light_black"
+            android:textSize="@dimen/_14sdp"
+            android:inputType="text"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:background="@color/grey_color"
+            />
+
+
+        <EditText
+            android:id="@+id/username_et_editprofile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:hint="@string/name_et"
+            android:padding="@dimen/_10sdp"
+            android:textColor="@android:color/black"
+            android:drawableLeft="@drawable/user_edit"
+            android:drawablePadding="@dimen/_10sdp"
+            android:textSize="@dimen/_14sdp"
+            android:inputType="text" />
+
+        <View
+            android:id="@+id/view_username"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:background="@color/grey_color"
+            />
+
+        <EditText
+            android:id="@+id/selectcity_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:hint="@string/selectcity_et"
+            android:padding="@dimen/_10sdp"
+            android:drawableLeft="@drawable/lity"
+            android:drawablePadding="@dimen/_10sdp"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/_14sdp"
+            android:inputType="text" />
+
+        <View
+            android:id="@+id/view_city"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:background="@color/grey_color"
+            />
+
+        <EditText
+            android:id="@+id/nav_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:padding="@dimen/_10sdp"
+            android:textColor="@color/light_black"
+            android:drawableLeft="@drawable/nav"
+            android:drawablePadding="@dimen/_10sdp"
+            android:textSize="@dimen/_14sdp"
+            android:inputType="text" />
+
+        <View
+            android:id="@+id/view_nav"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:background="@color/grey_color"
+            />
+
+        <EditText
+            android:id="@+id/phone_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:hint="@string/phone_et"
+            android:padding="@dimen/_10sdp"
+            android:textColor="@color/light_black"
+            android:drawableLeft="@drawable/phone"
+            android:drawablePadding="@dimen/_10sdp"
+            android:textSize="@dimen/_14sdp"
+            android:inputType="number" />
+
+        <View
+            android:id="@+id/view_phone"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:background="@color/grey_color"
+            />
+
+        <EditText
+            android:id="@+id/profilepicture_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:hint="@string/profilepicture_et"
+            android:paddingLeft="@dimen/_20sdp"
+            android:paddingRight="@dimen/_20sdp"
+            android:paddingTop="@dimen/_20sdp"
+            android:textColor="@color/light_black"
+            android:clickable="false"
+            android:focusable="false"
+            android:textSize="@dimen/_14sdp"
+            android:inputType="text" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:background="@color/grey_color"
+            />
+
+        <EditText
+            android:id="@+id/changepicture_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:padding="10dp"
+            android:text="@string/changepicture_et"
+            android:textColor="@color/light_black"
+            android:drawableLeft="@drawable/change_picture"
+            android:drawablePadding="@dimen/_10sdp"
+            android:focusable="false"
+            android:editable="false"
+            android:clickable="true"
+            android:textSize="@dimen/_14sdp"
+            android:inputType="text" />
+
+        <View
+            android:id="@+id/view_changepic"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:background="@color/grey_color"
+            />
+
+        <EditText
+            android:id="@+id/removepicture_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:paddingTop="@dimen/_10sdp"
+            android:paddingBottom="@dimen/_10sdp"
+            android:paddingRight="@dimen/_10sdp"
+            android:paddingLeft="@dimen/_9sdp"
+            android:textColor="@color/light_black"
+            android:drawableLeft="@drawable/remove_picture"
+            android:focusable="false"
+            android:text="@string/removepicture_et"
+            android:editable="false"
+            android:clickable="true"
+            android:drawablePadding="@dimen/_8sdp"
+            android:textSize="@dimen/_14sdp"
+            android:inputType="text" />
+
+        <View
+            android:id="@+id/view_removepic"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:background="@color/grey_color"
+            />
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

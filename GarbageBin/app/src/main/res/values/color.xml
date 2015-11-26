@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="text_grey">#919191</color>
+    <color name="facebook_bg">#3B5998</color>
+    <color name="fb_dark_bg">#0B2A6B</color>
+    <color name="google_color">#DA4835</color>
+    <color name="google_dark_color">#A11E0D</color>
+    <color name="signup_color">#C9CACA</color>
+    <color name="orange">#F16716</color>
+    <color name="white">#FFFFFF</color>
+    <color name="cream_color">#DEDEDE</color>
+    <color name="orange_dark">#FE6C17</color>
+    <color name="et_border_color">#222222</color>
+    <color name="light_grey">#C7C7C7</color>
+    <color name="grey_color">#E0E0E0</color>
+    <color name="light_text_color">#848484</color>
+    <color name="dark_color">#232323</color>
+    <color name="light_videos_bg_color">#E6E6E6</color>
+    <color  name="light_cart_text">#ACACAC</color>
+    <color name="light_black">#353535</color>
+    <color name="grey_edit_color">#585858</color>
+    <color name="grey_edit_text">#D8D8D8</color>
+    <color name="green">#05C31F</color>
+    <color name="forgotten_blue">#1A5A88</color>.
+    <color name="red">#F91818</color>
+    <color name="blue">#2690FF</color>
+    <color name="blue_header">#004878</color>
+    <color name="tab_grey">#424242</color>
+    <color name="red_color">#EA0304</color>
+
+</resources>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/lyt_editsearch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/edt_search"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/searchblackround"
+                android:drawableLeft="@drawable/search"
+                android:drawablePadding="@dimen/_10sdp"
+                android:gravity="center_vertical"
+                android:hint="@string/edt_search"
+                android:imeOptions="actionSearch"
+                android:inputType="text"
+                android:padding="10dp"
+                android:singleLine="true"
+                android:textColor="@color/light_black"
+                android:textSize="@dimen/_14sdp" />
+
+            <!--<View-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="0.5dp"-->
+            <!--android:layout_marginTop="@dimen/_3sdp"-->
+            <!--android:background="@color/grey_color"-->
+            <!--/>-->
+
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/listView_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/lyt_clearbrowser"
+            android:layout_below="@+id/lyt_editsearch"
+            android:background="#FCFCFC"
+            android:orientation="vertical">
+
+            <ListView
+                android:id="@+id/listView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:divider="@color/light_grey"
+                android:dividerHeight="0.25dp"
+                android:transcriptMode="alwaysScroll" />
+
+            <View
+                android:id="@+id/view_list_seperator"
+                android:layout_width="match_parent"
+                android:layout_height="0.25dp"
+                android:layout_below="@+id/listView"
+                android:background="@color/light_grey" />
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:id="@+id/lyt_clearbrowser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/grey_color" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@android:color/white"
+                android:gravity="center"
+                android:padding="@dimen/_10sdp"
+                android:text="Clear search history"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/_14sdp" />
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

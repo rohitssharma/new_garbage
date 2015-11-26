@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/GarbageBin.iml" filepath="$PROJECT_DIR$/GarbageBin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ShortcutBadger/ShortcutBadger.iml" filepath="$PROJECT_DIR$/ShortcutBadger/ShortcutBadger.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/image-chooser-library/image-chooser-library.iml" filepath="$PROJECT_DIR$/image-chooser-library/image-chooser-library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/progressLibrary/progressLibrary.iml" filepath="$PROJECT_DIR$/progressLibrary/progressLibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sdp-android/sdp-android.iml" filepath="$PROJECT_DIR$/sdp-android/sdp-android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/volleey/volleey.iml" filepath="$PROJECT_DIR$/volleey/volleey.iml" />
+      <module fileurl="file://$PROJECT_DIR$/volley/volley.iml" filepath="$PROJECT_DIR$/volley/volley.iml" />
+    </modules>
+  </component>
+</project>

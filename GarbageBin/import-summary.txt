@@ -1,0 +1,87 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Risky Project Location:
+-----------------------
+The tools *should* handle project locations in any directory. However,
+due to bugs, placing projects in directories containing spaces in the
+path, or characters like ", ' and &, have had issues. We're working to
+eliminate these bugs, but to save yourself headaches you may want to
+move your project to a location where this is not a problem.
+/home/sharanjeet/Documents/Backups/GarbageBin backups/25 sept/GarbageBin
+                                             -          -               
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .gitignore
+* Android.mk
+* build.xml
+* custom_rules.xml
+* proguard-project.txt
+* proguard.cfg
+* tests/
+* tests/Android.mk
+* tests/AndroidManifest.xml
+* tests/project.properties
+* tests/res/
+* tests/res/raw/
+* tests/res/raw/large_jpeg_1024_500.jpg
+* tests/src/
+* tests/src/com/
+* tests/src/com/android/
+* tests/src/com/android/volley/
+* tests/src/com/android/volley/CacheDispatcherTest.java
+* tests/src/com/android/volley/NetworkDispatcherTest.java
+* tests/src/com/android/volley/RequestQueueTest.java
+* tests/src/com/android/volley/RequestTest.java
+* tests/src/com/android/volley/ResponseDeliveryTest.java
+* tests/src/com/android/volley/mock/
+* tests/src/com/android/volley/mock/MockCache.java
+* tests/src/com/android/volley/mock/MockHttpClient.java
+* tests/src/com/android/volley/mock/MockHttpStack.java
+* tests/src/com/android/volley/mock/MockHttpURLConnection.java
+* tests/src/com/android/volley/mock/MockNetwork.java
+* tests/src/com/android/volley/mock/MockRequest.java
+* tests/src/com/android/volley/mock/MockResponseDelivery.java
+* tests/src/com/android/volley/mock/TestRequest.java
+* tests/src/com/android/volley/mock/WaitableQueue.java
+* tests/src/com/android/volley/toolbox/
+* tests/src/com/android/volley/toolbox/BasicNetworkTest.java
+* tests/src/com/android/volley/toolbox/ByteArrayPoolTest.java
+* tests/src/com/android/volley/toolbox/HttpClientStackTest.java
+* tests/src/com/android/volley/toolbox/HttpHeaderParserTest.java
+* tests/src/com/android/volley/toolbox/HurlStackTest.java
+* tests/src/com/android/volley/toolbox/ImageRequestTest.java
+* tests/src/com/android/volley/toolbox/PoolingByteArrayOutputStreamTest.java
+* tests/src/com/android/volley/utils/
+* tests/src/com/android/volley/utils/CacheTestUtils.java
+* tests/src/com/android/volley/utils/ImmediateResponseDelivery.java
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => volley/src/main/AndroidManifest.xml
+* assets/ => volley/src/main/assets
+* res/ => volley/src/main/res
+* src/ => volley/src/main/java/
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B3000000"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@drawable/white_background"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/signup_tv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Enter Email Address"
+            android:layout_weight="1"
+            android:textSize="@dimen/_14sdp"
+            android:textStyle="bold"
+
+            android:gravity="center"
+            android:textColor="@color/blue_header"/>
+        <EditText
+            android:id="@+id/fb_emailAddress_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:hint="@string/emailAddress_et"
+            android:padding="15dp"
+            android:textColor="@color/light_black"
+            android:textSize="@dimen/_12sdp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:inputType="textEmailAddress"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:background="@color/grey_color"
+            />
+        <!--<EditText-->
+            <!--android:id="@+id/fb_emailAddress_et"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="@drawable/edittext_bg"-->
+            <!--android:textColorHint="@color/et_border_color"-->
+            <!--android:textColor="@color/et_border_color"-->
+            <!--android:hint="@string/emailAddress_et"-->
+            <!--android:inputType="textEmailAddress"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:padding="15dp" />-->
+
+        <EditText
+            android:id="@+id/fb_promocode_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/et_promocode_bg"
+            android:textColorHint="@color/light_text_color"
+            android:textColor="@color/light_text_color"
+            android:hint="@string/promocode_et"
+            android:layout_marginTop="15dp"
+            android:textSize="15sp"
+            android:visibility="gone"
+            android:drawableRight="@drawable/promo_code"
+            android:inputType="text"
+            android:paddingLeft="15dp"
+            />
+
+        <Button
+            android:id="@+id/fb_save_btn"
+            android:layout_width="100dp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_14sdp"
+
+            android:textAllCaps="false"
+            android:background="@color/blue_header"
+            android:text="Save"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
